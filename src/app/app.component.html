@@ -1,0 +1,13 @@
+<section class="main bg-black d-flex justify-content-center flex-column align-items-center">
+  <h1 class="text-white py-2 "> سبحه ندا الالكترونيه</h1>
+  <div class="text-center position-relative ">
+    <div class="position-relative sebha">
+      <img  src="./assets/images/5.png"  alt="">
+      <span  [class.scaled]="isClicked" #addBtn (click)="add()" class="add "></span>
+      <span [class.scaled]="isClicked2" #resetBtn (click)="reset()" class="reset"></span>
+    </div>
+    <span class="count d-flex justify-content-end align-items-center p-3">{{counter}}</span>
+  </div>
+  <h2 class="text-white my-3">{{qoute}}</h2>
+
+</section>

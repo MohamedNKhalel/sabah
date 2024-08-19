@@ -1,0 +1,56 @@
+
+.main{
+    
+    min-height: 100vh;
+    h1{
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .sebha{
+        img{
+            width: 50%;
+        }
+    }
+    .add{
+        position: absolute;
+        background-image: linear-gradient(#CACBCB, #565857);
+        height: 25%;
+        width: 15.5%;
+        bottom: 12.2%;
+        right: 42.2%;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .reset{
+        position: absolute;
+        background-image: linear-gradient(#CDCECE, #2D2E2E);
+        height: 7%;
+        width: 4.5%;
+        top: 53.6%;
+        right: 35.4%;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .count{
+        position: absolute;
+        top: 18%;
+        left: 32.4%;
+        width: 35.5%;
+        height: 21%;
+        border-radius: 7px;
+        background-image: linear-gradient(to right,#959F97,rgba(255, 255, 255, 0.29));
+        cursor: pointer;
+        font-size: 5em;
+
+    }
+    .scaled{
+        transform: scale(1.05);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main{
+        font-size: 10px;
+    }
+    
+}
